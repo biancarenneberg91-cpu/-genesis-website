@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#131a29"/>
+      <stop offset="100%" stop-color="#05070c"/>
+    </radialGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4ee"/>
+      <stop offset="100%" stop-color="#9b6bff"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4ee"/>
+      <stop offset="100%" stop-color="#9b6bff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bgGlow)"/>
+
+  <g stroke="#2dd4ee" stroke-opacity="0.18" stroke-width="1.5" fill="none">
+    <polygon points="256,60 410,148 410,324 256,412 102,324 102,148"/>
+  </g>
+  <g stroke="#9b6bff" stroke-opacity="0.13" stroke-width="1" fill="none" stroke-dasharray="4 6">
+    <polygon points="256,90 384,163 384,309 256,382 128,309 128,163"/>
+  </g>
+
+  <line x1="256" y1="180" x2="180" y2="240" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="256" y1="180" x2="332" y2="240" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="180" y1="240" x2="180" y2="320" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="332" y1="240" x2="332" y2="320" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="180" y1="320" x2="332" y2="320" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round" stroke-opacity="0.5"/>
+
+  <circle cx="256" cy="180" r="26" fill="#0a0e14" stroke="url(#coreGrad)" stroke-width="5"/>
+  <circle cx="256" cy="180" r="10" fill="url(#coreGrad)"/>
+
+  <circle cx="180" cy="240" r="19" fill="#0a0e14" stroke="#2dd4ee" stroke-width="4"/>
+  <circle cx="180" cy="240" r="7" fill="#2dd4ee"/>
+
+  <circle cx="332" cy="240" r="19" fill="#0a0e14" stroke="#9b6bff" stroke-width="4"/>
+  <circle cx="332" cy="240" r="7" fill="#9b6bff"/>
+
+  <circle cx="180" cy="320" r="15" fill="#0a0e14" stroke="#2dd4ee" stroke-width="3.5" stroke-opacity="0.85"/>
+  <circle cx="180" cy="320" r="5" fill="#2dd4ee" opacity="0.85"/>
+
+  <circle cx="332" cy="320" r="15" fill="#0a0e14" stroke="#9b6bff" stroke-width="3.5" stroke-opacity="0.85"/>
+  <circle cx="332" cy="320" r="5" fill="#9b6bff" opacity="0.85"/>
+</svg>
